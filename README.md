@@ -92,3 +92,7 @@ Gerencia operações de arquivos, incluindo criação e manipulação.
 - **`HistoryManager`** → Gerencia o armazenamento e recuperação do histórico de comandos.
 
 
+### Diagrama de Classes: 
+
+
+https://github.com/nashnaeu/projeto-terminal-java/raw/main/docs/uml/diagrama.png
