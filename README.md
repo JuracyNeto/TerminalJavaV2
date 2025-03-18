@@ -1,4 +1,4 @@
-# # Simulador de Terminal em Java
+# Simulador de Terminal em Java
 
 Este projeto implementa um terminal de comandos básico em Java, permitindo a execução de comandos como `cd` (mudar diretório), `cat` (ler arquivos) e outros. Ele simula um ambiente de linha de comando interativo com suporte a um histórico de comandos.
 
