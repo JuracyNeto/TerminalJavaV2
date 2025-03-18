@@ -91,15 +91,4 @@ Gerencia operações de arquivos, incluindo criação e manipulação.
 - **`HistoryCommand`** → Exibe o histórico de comandos.
 - **`HistoryManager`** → Gerencia o armazenamento e recuperação do histórico de comandos.
 
----
-
-## 🚀 Melhorias Futuras
-- Implementar autocompletar de comandos.
-- Adicionar suporte a execução de scripts.
-- Melhorar o sistema de permissões para manipulação de arquivos.
-
----
-
-## 📌 Conclusão
-Este simulador de terminal oferece uma base sólida para aprender sobre a implementação de **linha de comando em Java**, uso de **interfaces**, manipulação de **arquivos e diretórios** e personalização com **histórico de comandos**. Explore e expanda com novos recursos! 🚀
 
