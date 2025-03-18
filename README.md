@@ -92,7 +92,42 @@ Gerencia operações de arquivos, incluindo criação e manipulação.
 - **`HistoryManager`** → Gerencia o armazenamento e recuperação do histórico de comandos.
 
 
-### Diagrama de Classes: 
+### Diagrama De Classes:
+![UML](docs/uml/diagrama.png)
 
+### Código PlantUML
+```plantuml
+@startuml
+class Terminal {
+    +main(String[] args)
+}
 
-https://github.com/nashnaeu/projeto-terminal-java/raw/main/docs/uml/diagrama.png
+class CommandHandler {
+    +executeCommand(String input)
+}
+
+class FileManager {
+    +createFile(String nome)
+    +deleteFile(String nome)
+    +readFile(String nome)
+    +writeFile(String nome, String conteudo)
+}
+
+class DirectoryManager {
+    +changeDirectory(String caminho)
+    +createDirectory(String nome)
+    +deleteDirectory(String nome)
+    +listContents()
+}
+
+class HistoryManager {
+    +saveCommand(String comando)
+    +getHistory()
+}
+
+Terminal --> CommandHandler : "Usa"
+CommandHandler --> FileManager : "Manipula Arquivos"
+CommandHandler --> DirectoryManager : "Manipula Diretórios"
+CommandHandler --> HistoryManager : "Gerencia Histórico"
+
+@enduml
