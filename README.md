@@ -93,7 +93,7 @@ Gerencia operações de arquivos, incluindo criação e manipulação.
 
 
 ### Diagrama De Classes:
-![UML](docs/uml/diagrama.png)
+![UML](asset/diagrama.png)
 
 ### Código PlantUML
 ```plantuml
